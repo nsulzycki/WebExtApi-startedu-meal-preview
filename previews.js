@@ -21,8 +21,8 @@
       ],
       "kotlety ziemniaczane w sosie pieczarkowym, jajko na twardo, coleslaw": [
         {
-          fullImage: "images/IMG_0793.JPG",
-          thumb: "images/IMG_0793_thumb.JPG"
+          fullImage: "images/IMG-0793.JPG",
+          thumb: "images/IMG-0793_thumb.JPG"
         }
       ],
       "zapiekanka makaronowa z warzywami w sosie beszamelowym": [
