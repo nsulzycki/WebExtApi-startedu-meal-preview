@@ -19,6 +19,12 @@
           thumb: "images/IMG_3652_thumb.jpg"
         }
       ],
+      "kotlet mielony, puree ziemniaczane, marchew z jabłkiem": [
+        {
+          fullImage: "images/IMG_7280.JPG",
+          thumb: "images/IMG_7280_thumb.JPG"
+        }
+      ],
       "kotlety ziemniaczane w sosie pieczarkowym, jajko na twardo, coleslaw": [
         {
           fullImage: "images/IMG-0793.JPG",
@@ -35,6 +41,18 @@
         {
           fullImage: "images/IMG_3662.jpg",
           thumb: "images/IMG_3662_thumb.jpg"
+        }
+      ],
+      "maślane naleśniki z warzywną caponatą": [
+        {
+          fullImage: "images/IMG_9904.JPG",
+          thumb: "images/IMG_9904_thumb.JPG"
+        }
+      ],
+      wielowarzywna: [
+        {
+          fullImage: "images/IMG_3037.JPG",
+          thumb: "images/IMG_3037_thumb.JPG"
         }
       ],
       "zapiekanka makaronowa z warzywami w sosie beszamelowym": [
