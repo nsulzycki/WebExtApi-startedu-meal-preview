@@ -49,6 +49,12 @@
           thumb: "images/IMG_9904_thumb.JPG"
         }
       ],
+      "nuggetsy z kurczaka, dip śmietanowo-czosnkowy, ziemniaki opiekane, coleslaw": [
+        {
+          fullImage: "images/IMG_5121.JPG",
+          thumb: "images/IMG_5121_thumb.JPG"
+        }
+      ],
       wielowarzywna: [
         {
           fullImage: "images/IMG_3037.JPG",
