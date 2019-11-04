@@ -1,10 +1,22 @@
 (function() {
   const mealData = {
     meals: {
+      "brokułowa z kaszą jaglaną": [
+        {
+          fullImage: "images/IMG_4492.JPG",
+          thumb: "images/IMG_4492_thumb.JPG"
+        }
+      ],
       "butter chicken, kasza perłowa z pietruszką, surówka szwedzka": [
         {
           fullImage: "images/IMG_3658.jpg",
           thumb: "images/IMG_3658_thumb.jpg"
+        }
+      ],
+      grochówka: [
+        {
+          fullImage: "images/IMG_1425.JPG",
+          thumb: "images/IMG_1425_thumb.JPG"
         }
       ],
       "kaszotto gryczane z kurczakiem, burakiem i porem": [
@@ -53,6 +65,18 @@
         {
           fullImage: "images/IMG_5121.JPG",
           thumb: "images/IMG_5121_thumb.JPG"
+        }
+      ],
+      "roladki z kurczaka z nadzieniem serowo - jajecznym, ziemniaki z wody, marchew z jabłkiem": [
+        {
+          fullImage: "images/IMG_1742.JPG",
+          thumb: "images/IMG_1742_thumb.JPG"
+        }
+      ],
+      "wegański mielony z dynią i warzywami w sosie śmietankowym, kasza jaglana z pietruszką, marchew z jabłkiem": [
+        {
+          fullImage: "images/IMG_5349.JPG",
+          thumb: "images/IMG_5349_thumb.JPG"
         }
       ],
       wielowarzywna: [
