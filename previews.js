@@ -31,6 +31,12 @@
           thumb: "images/IMG_3652_thumb.jpg"
         }
       ],
+      "kotlet pożarski, ziemniaki z wody z koperkiem, surówka z selera z rodzynkami": [
+        {
+          fullImage: "images/IMG_6439.JPG",
+          thumb: "images/IMG_6439_thumb.JPG"
+        }
+      ],
       "kotlet mielony, puree ziemniaczane, marchew z jabłkiem": [
         {
           fullImage: "images/IMG_7280.JPG",
@@ -53,6 +59,12 @@
         {
           fullImage: "images/IMG_3662.jpg",
           thumb: "images/IMG_3662_thumb.jpg"
+        }
+      ],
+      "makaron penne rigatte z dynią, szpinakiem, suszonymi pomidorami i serem feta": [
+        {
+          fullImage: "images/IMG_0162.JPG",
+          thumb: "images/IMG_0162_thumb.JPG"
         }
       ],
       "maślane naleśniki z warzywną caponatą": [
