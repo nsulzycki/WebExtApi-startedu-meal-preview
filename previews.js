@@ -55,6 +55,12 @@
           thumb: "images/IMG_3663_thumb.jpg"
         }
       ],
+      "krem z buraka z serem feta": [
+        {
+          fullImage: "images/IMG_3308.JPG",
+          thumb: "images/IMG_3308_thumb.JPG"
+        }
+      ],
       "makaron farfalle w sosie z owoców leśnych": [
         {
           fullImage: "images/IMG_3662.jpg",
@@ -91,6 +97,12 @@
           thumb: "images/IMG_1742_thumb.JPG"
         }
       ],
+      "spaghetti z klopsikami rybnymi w sosie pomidorowym z cukinią": [
+        {
+          fullImage: "images/IMG_9942.JPG",
+          thumb: "images/IMG_9942_thumb.JPG"
+        }
+      ],
       "wegański mielony z dynią i warzywami w sosie śmietankowym, kasza jaglana z pietruszką, marchew z jabłkiem": [
         {
           fullImage: "images/IMG_5349.JPG",
@@ -113,6 +125,12 @@
         {
           fullImage: "images/IMG_3664.jpg",
           thumb: "images/IMG_3664_thumb.jpg"
+        }
+      ],
+      "zapiekany ryż z jabłkami, cynamonem i śmietaną": [
+        {
+          fullImage: "images/IMG_3706.JPG",
+          thumb: "images/IMG_3706_thumb.JPG"
         }
       ],
       "zielone falafele w sosie pomidorowym, kasza jęczmienna, marchew karmelizowana": [
