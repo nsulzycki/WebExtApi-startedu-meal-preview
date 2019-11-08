@@ -1,10 +1,22 @@
 (function() {
   const mealData = {
     meals: {
+      "brokułowa z kaszą jaglaną": [
+        {
+          fullImage: "images/IMG_4492.JPG",
+          thumb: "images/IMG_4492_thumb.JPG"
+        }
+      ],
       "butter chicken, kasza perłowa z pietruszką, surówka szwedzka": [
         {
           fullImage: "images/IMG_3658.jpg",
           thumb: "images/IMG_3658_thumb.jpg"
+        }
+      ],
+      grochówka: [
+        {
+          fullImage: "images/IMG_1425.JPG",
+          thumb: "images/IMG_1425_thumb.JPG"
         }
       ],
       "kaszotto gryczane z kurczakiem, burakiem i porem": [
@@ -17,6 +29,18 @@
         {
           fullImage: "images/IMG_3652.jpg",
           thumb: "images/IMG_3652_thumb.jpg"
+        }
+      ],
+      "kotlet pożarski, ziemniaki z wody z koperkiem, surówka z selera z rodzynkami": [
+        {
+          fullImage: "images/IMG_6439.JPG",
+          thumb: "images/IMG_6439_thumb.JPG"
+        }
+      ],
+      "kotlet mielony, puree ziemniaczane, marchew z jabłkiem": [
+        {
+          fullImage: "images/IMG_7280.JPG",
+          thumb: "images/IMG_7280_thumb.JPG"
         }
       ],
       "kotlety ziemniaczane w sosie pieczarkowym, jajko na twardo, coleslaw": [
@@ -37,6 +61,48 @@
           thumb: "images/IMG_3662_thumb.jpg"
         }
       ],
+      "makaron penne rigatte z dynią, szpinakiem, suszonymi pomidorami i serem feta": [
+        {
+          fullImage: "images/IMG_0162.JPG",
+          thumb: "images/IMG_0162_thumb.JPG"
+        }
+      ],
+      "marynowane filety z kurczaka zapiekane z pomidorami i żółtym serem, biały ryż, surówka wielowarzywna": [
+        {
+          fullImage: "images/IMG_0336.JPG",
+          thumb: "images/IMG_0336_thumb.JPG"
+        }
+      ],
+      "maślane naleśniki z warzywną caponatą": [
+        {
+          fullImage: "images/IMG_9904.JPG",
+          thumb: "images/IMG_9904_thumb.JPG"
+        }
+      ],
+      "nuggetsy z kurczaka, dip śmietanowo-czosnkowy, ziemniaki opiekane, coleslaw": [
+        {
+          fullImage: "images/IMG_5121.JPG",
+          thumb: "images/IMG_5121_thumb.JPG"
+        }
+      ],
+      "roladki z kurczaka z nadzieniem serowo - jajecznym, ziemniaki z wody, marchew z jabłkiem": [
+        {
+          fullImage: "images/IMG_1742.JPG",
+          thumb: "images/IMG_1742_thumb.JPG"
+        }
+      ],
+      "wegański mielony z dynią i warzywami w sosie śmietankowym, kasza jaglana z pietruszką, marchew z jabłkiem": [
+        {
+          fullImage: "images/IMG_5349.JPG",
+          thumb: "images/IMG_5349_thumb.JPG"
+        }
+      ],
+      wielowarzywna: [
+        {
+          fullImage: "images/IMG_3037.JPG",
+          thumb: "images/IMG_3037_thumb.JPG"
+        }
+      ],
       "zapiekanka makaronowa z warzywami w sosie beszamelowym": [
         {
           fullImage: "images/7fa1055cfe2fb7b4f40885bc2c176fc3e1869c7e.jpg",
@@ -47,6 +113,12 @@
         {
           fullImage: "images/IMG_3664.jpg",
           thumb: "images/IMG_3664_thumb.jpg"
+        }
+      ],
+      "zielone falafele w sosie pomidorowym, kasza jęczmienna, marchew karmelizowana": [
+        {
+          fullImage: "images/IMG_8828.JPG",
+          thumb: "images/IMG_8828_thumb.JPG"
         }
       ],
       żurek: [
