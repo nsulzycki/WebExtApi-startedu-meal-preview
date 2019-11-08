@@ -67,6 +67,12 @@
           thumb: "images/IMG_0162_thumb.JPG"
         }
       ],
+      "marynowane filety z kurczaka zapiekane z pomidorami i żółtym serem, biały ryż, surówka wielowarzywna": [
+        {
+          fullImage: "images/IMG_0336.JPG",
+          thumb: "images/IMG_0336_thumb.JPG"
+        }
+      ],
       "maślane naleśniki z warzywną caponatą": [
         {
           fullImage: "images/IMG_9904.JPG",
@@ -107,6 +113,12 @@
         {
           fullImage: "images/IMG_3664.jpg",
           thumb: "images/IMG_3664_thumb.jpg"
+        }
+      ],
+      "zielone falafele w sosie pomidorowym, kasza jęczmienna, marchew karmelizowana": [
+        {
+          fullImage: "images/IMG_8828.JPG",
+          thumb: "images/IMG_8828_thumb.JPG"
         }
       ],
       żurek: [
