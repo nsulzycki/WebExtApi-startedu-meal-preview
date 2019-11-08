@@ -19,6 +19,12 @@
           thumb: "images/IMG_1425_thumb.JPG"
         }
       ],
+      "gulasz z warzywami, kopytka, buraczki": [
+        {
+          fullImage: "images/IMG_7130.JPG",
+          thumb: "images/IMG_7130_thumb.JPG"
+        }
+      ],
       "kaszotto gryczane z kurczakiem, burakiem i porem": [
         {
           fullImage: "images/IMG-0794.JPG",
