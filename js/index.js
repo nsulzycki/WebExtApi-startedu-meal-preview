@@ -14,9 +14,9 @@
   const hosting = "https://bsacharski.github.io/startedu-meal-preview";
 
   const init = () => {
-    registerStyle();
-    addSourceJson();
-    addPreviewNode();
+      registerStyle();
+      addSourceJson();
+      addPreviewNode();
   };
 
   const addSourceJson = () => {
@@ -24,12 +24,13 @@
     scriptElement.src = `${hosting}/previews.js`;
     scriptElement.id = "mealManifest";
     scriptElement.type = "text/javascript";
+    document.body.append(scriptElement);
 
     scriptElement.addEventListener("load", () => {
       window.setInterval(processMeals, intervalTimeout);
     });
 
-    document.body.append(scriptElement);
+
   };
 
   const addPreviewNode = () => {
@@ -111,5 +112,5 @@
     document.body.appendChild(style);
   };
 
-  init();
+  window.onload = init();
 })();
