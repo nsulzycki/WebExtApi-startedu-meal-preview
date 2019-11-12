@@ -12,6 +12,7 @@
   "use strict";
   const intervalTimeout = 500;
   const hosting = "https://bsacharski.github.io/startedu-meal-preview";
+  const imageData = "https://bsacharski.github.io/startedu-meals";
 
   const init = () => {
       registerStyle();
@@ -20,14 +21,15 @@
   };
 
   const addSourceJson = () => {
+    const body = document.getElementsByTagName("body")[0];
     const scriptElement = document.createElement("script");
-    scriptElement.src = `${hosting}/previews.js`;
+    scriptElement.src = `${imageData}/previews.js`;
     scriptElement.id = "mealManifest";
     scriptElement.type = "text/javascript";
-    document.body.append(scriptElement);
+    body.appendChild(scriptElement);
 
     scriptElement.addEventListener("load", () => {
-      window.setInterval(processMeals, intervalTimeout);
+      processMeals();
     });
 
 
@@ -112,5 +114,8 @@
     document.body.appendChild(style);
   };
 
-  window.onload = init();
+  window.onload = function() {
+    setTimeout(init(), 500);
+  };
+
 })();
