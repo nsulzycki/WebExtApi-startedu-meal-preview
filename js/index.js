@@ -21,15 +21,14 @@
   };
 
   const addSourceJson = () => {
-    const body = document.getElementsByTagName("body")[0];
     const scriptElement = document.createElement("script");
     scriptElement.src = `${imageData}/previews.js`;
     scriptElement.id = "mealManifest";
     scriptElement.type = "text/javascript";
-    body.appendChild(scriptElement);
+    document.body.appendChild(scriptElement);
 
     scriptElement.addEventListener("load", () => {
-      processMeals();
+      window.setInterval(processMeals, intervalTimeout);
     });
 
 

@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "StartEdu - WebExtension",
-  "version": "0.61",
+  "version": "0.63",
   "icons": {
     "48": "icons/apple-icon-57x57.png",
     "96": "icons/favicon-96x96.png"
@@ -10,8 +10,7 @@
   "content_scripts": [
     {
       "matches": [
-        "*://startedu.pl/Order/*",
-        "*://startedu.pl/Home/*"
+        "*://startedu.pl/*"
       ],
       "js": [ "js/background.js"],
       "run_at": "document_end",
