@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
   "name": "StartEdu - WebExtension",
-  "version": "0.63",
+  "version": "0.65",
   "icons": {
-    "48": "icons/apple-icon-57x57.png",
-    "96": "icons/favicon-96x96.png"
+    "48": "assets/icons/apple-icon-57x57.png",
+    "96": "assets/icons/favicon-96x96.png"
   },
   "permissions": ["activeTab"],
   "content_scripts": [
@@ -12,16 +12,17 @@
       "matches": [
         "*://startedu.pl/*"
       ],
-      "js": [ "js/background.js"],
+      "js": [ "assets/js/background.js" ],
+      "css": [ "assets/css/index.css" ],
       "run_at": "document_end",
       "persistent": true
     }
   ],
   "background": {
-    "scripts": ["js/index.js"],
+    "scripts": ["assets/js/index.js"],
     "persistent": true
   },
   "web_accessible_resources": [
-    "js/index.js"
+    "assets/js/index.js"
   ]
 }

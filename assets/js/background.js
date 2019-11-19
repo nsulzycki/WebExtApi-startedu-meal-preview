@@ -5,4 +5,4 @@ function injectScript(file_path, tag) {
     script.setAttribute('src', file_path);
     node.appendChild(script);
 }
-injectScript(chrome.extension.getURL('js/index.js'), 'body');
+injectScript(chrome.extension.getURL('assets/js/index.js'), 'body');

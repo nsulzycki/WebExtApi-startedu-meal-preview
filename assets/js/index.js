@@ -14,8 +14,8 @@
   const hosting = "https://bsacharski.github.io/startedu-meal-preview";
   const imageData = "https://bsacharski.github.io/startedu-meals";
 
+
   const init = () => {
-      registerStyle();
       addSourceJson();
       addPreviewNode();
   };
@@ -38,7 +38,7 @@
     const previewNode = document.createElement("img");
     previewNode.id = "meal-preview-img";
 
-    previewNode.addEventListener("dblclick", () => {
+    previewNode.addEventListener("click", () => {
       previewNode.classList.remove("meal-preview-full");
     });
 
@@ -75,7 +75,7 @@
       const { fullImage, thumb } = mealImageData;
       const img = document.createElement("img");
 
-      img.addEventListener("dblclick", () => {
+      img.addEventListener("click", () => {
         const imgPreviewNode = document.querySelector("#meal-preview-img");
         imgPreviewNode.src = `${hosting}/${fullImage}`;
         imgPreviewNode.classList.add("meal-preview-full");
@@ -92,29 +92,6 @@
     });
   };
 
-  const registerStyle = () => {
-    const style = document.createElement("style");
-    style.innerHTML = `
-      #meal-preview-img {
-        display: none;
-      }
-
-      .meal-preview-full {
-        display: initial !important;
-        left: 50%;
-        position: fixed;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        width: 50vw;
-        z-index: 10000;
-      }
-    `;
-
-    document.body.appendChild(style);
-  };
-
-  window.onload = function() {
-    setTimeout(init(), 500);
-  };
+  init()
 
 })();
