@@ -6,7 +6,7 @@ The directory holding the manifest file can be added as an extension in develope
 
 Open the Extension Management page by navigating to:
 ```bash
-chrome://extensions.
+chrome://extensions
 ```
 
 The Extension Management page can also be opened by clicking on the Chrome menu, hovering over More Tools then selecting Extensions.
