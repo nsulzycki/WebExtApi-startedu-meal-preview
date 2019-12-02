@@ -11,7 +11,7 @@
 (function() {
   "use strict";
   const intervalTimeout = 500;
-  const hosting = "https://bsacharski.github.io/startedu-meal-preview";
+  const hosting = "https://bsacharski.github.io/startedu-meals";
   const imageData = "https://bsacharski.github.io/startedu-meals";
 
 

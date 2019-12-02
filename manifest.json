@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "StartEdu - WebExtension",
-  "version": "0.65",
+  "version": "0.66",
   "icons": {
     "48": "assets/icons/apple-icon-57x57.png",
     "96": "assets/icons/favicon-96x96.png"
