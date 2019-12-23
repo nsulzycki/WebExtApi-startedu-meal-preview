@@ -14,10 +14,9 @@
   const hosting = "https://bsacharski.github.io/startedu-meals";
   const imageData = "https://bsacharski.github.io/startedu-meals";
 
-
   const init = () => {
-      addSourceJson();
-      addPreviewNode();
+    addSourceJson();
+    addPreviewNode();
   };
 
   const addSourceJson = () => {
@@ -30,8 +29,6 @@
     scriptElement.addEventListener("load", () => {
       window.setInterval(processMeals, intervalTimeout);
     });
-
-
   };
 
   const addPreviewNode = () => {
@@ -57,8 +54,10 @@
         return;
       }
 
-      const mealName = parentElement.innerText.toLowerCase();
-      appendImageToNode(allergenInfo, mealName);
+      if (parentElement.childNodes.length) {
+        const mealName = parentElement.childNodes[0].textContent.toLowerCase();
+        appendImageToNode(allergenInfo, mealName);
+      }
     });
   };
 
@@ -92,6 +91,5 @@
     });
   };
 
-  init()
-
+  init();
 })();
