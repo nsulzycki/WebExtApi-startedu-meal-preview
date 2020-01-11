@@ -42,6 +42,12 @@
     document.body.append(previewNode);
   };
 
+  const extraxtMealName = parentElement => {
+    const textContent = parentElement.childNodes[0].textContent;
+    const mealName = textContent.trim().toLowerCase();
+    return mealName;
+  };
+
   const processMeals = () => {
     const allergenInfoNodes = document.querySelectorAll(
       "div.allergen-info:not([preview-status])"
@@ -55,7 +61,7 @@
       }
 
       if (parentElement.childNodes.length) {
-        const mealName = parentElement.childNodes[0].textContent.toLowerCase();
+        const mealName = extraxtMealName(parentElement);
         appendImageToNode(allergenInfo, mealName);
       }
     });
